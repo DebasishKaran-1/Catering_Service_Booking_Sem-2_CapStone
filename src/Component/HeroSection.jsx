@@ -1,5 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
+
 function HeroSection() {
+  const [searchQuery, setSearchQuery] = useState("");
+  const navigate = useNavigate();
+
+  const handleSearch = () => {
+    navigate('/find-caterer');
+  };
+
   return (
     <section style={{
       background: "url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat",
@@ -21,8 +30,8 @@ function HeroSection() {
         <h1 style={{fontSize: "3rem", fontWeight: "bold", marginBottom: "16px"}}>Find the Perfect Catering<br />for Your Special Event</h1>
         <p style={{fontSize: "1.2rem", marginBottom: "32px"}}>Discover top-rated catering services for weddings, corporate events, parties, and more. Book with confidence.</p>
         <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: "0"}}>
-          <input type="text" placeholder="Search by location, cuisine, or event type..." style={{padding: "14px 20px", borderRadius: "30px 0 0 30px", border: "none", width: "340px", fontSize: "1rem"}} />
-          <button style={{padding: "14px 32px", borderRadius: "0 30px 30px 0", border: "none", background: "#FF8800", color: "#fff", fontWeight: "bold", fontSize: "1rem"}}>Search</button>
+          <input type="text" placeholder="Search by location, cuisine, or event type..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} style={{padding: "14px 20px", borderRadius: "30px 0 0 30px", border: "none", width: "340px", fontSize: "1rem"}} />
+          <button style={{padding: "14px 32px", borderRadius: "0 30px 30px 0", border: "none", background: "#FF8800", color: "#fff", fontWeight: "bold", fontSize: "1rem"}} onClick={handleSearch}>Search</button>
         </div>
         <div style={{marginTop: "28px", display: "flex", justifyContent: "center", gap: "12px", flexWrap: "wrap"}}>
           <span style={{color: "#fff", fontWeight: "bold"}}>Popular:</span>
