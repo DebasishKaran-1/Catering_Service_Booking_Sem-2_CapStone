@@ -59,7 +59,7 @@ const menuData = [
     name: "Fresh Fruit Tart",
     price: "$6",
     desc: "Seasonal fruits on pastry",
-    img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
+    img: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=300&h=200&fit=crop",
     category: "Desserts",
     ingredients: ["Pastry", "Custard", "Seasonal fruits"],
     serving: "1 tart",
