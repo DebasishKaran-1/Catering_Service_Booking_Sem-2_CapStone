@@ -29,6 +29,12 @@ function Navbar({ onSignInClick }) {
         >
           Search
         </button>
+        <button
+          style={{background: "#FF8800", color: "#fff", border: "none", borderRadius: "8px", padding: "8px 24px", fontWeight: "bold", fontSize: "1.05rem", marginLeft: "8px", boxShadow: "0 2px 8px rgba(255,136,0,0.08)", cursor: "pointer", transition: "background 0.2s"}}
+          onClick={() => navigate('/signin')}
+        >
+          Sign In
+        </button>
       </div>
       <style>{`
         .navbar-link:hover {

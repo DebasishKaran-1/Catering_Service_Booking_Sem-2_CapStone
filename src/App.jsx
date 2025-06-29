@@ -15,6 +15,8 @@ const Menu = lazy(() => import('./Component/Menu.jsx'));
 const Contact = lazy(() => import('./Component/Contact.jsx'));
 const MenuItemDetails = lazy(() => import('./Component/MenuItemDetails.jsx'));
 const OrderNow = lazy(() => import('./Component/OrderNow.jsx'));
+const SignIn = lazy(() => import('./Component/SignIn.jsx'));
+const SignUp = lazy(() => import('./Component/SignUp.jsx'));
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
         <Route path="/contact" element={<React.Suspense fallback={<div>Loading...</div>}><Contact /></React.Suspense>} />
         <Route path="/menu/:itemId" element={<React.Suspense fallback={<div>Loading...</div>}><MenuItemDetails /></React.Suspense>} />
         <Route path="/order-now" element={<React.Suspense fallback={<div>Loading...</div>}><OrderNow /></React.Suspense>} />
+        <Route path="/signin" element={<React.Suspense fallback={<div>Loading...</div>}><SignIn /></React.Suspense>} />
+        <Route path="/signup" element={<React.Suspense fallback={<div>Loading...</div>}><SignUp /></React.Suspense>} />
       </Routes>
     </>
   )
