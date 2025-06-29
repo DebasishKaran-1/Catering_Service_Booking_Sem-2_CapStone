@@ -36,7 +36,13 @@ function HeroSection() {
         <div style={{marginTop: "28px", display: "flex", justifyContent: "center", gap: "12px", flexWrap: "wrap"}}>
           <span style={{color: "#fff", fontWeight: "bold"}}>Popular:</span>
           {["Wedding", "Corporate", "Birthday", "BBQ", "Vegan"].map(tag => (
-            <span key={tag} style={{background: "rgba(255,255,255,0.2)", borderRadius: "16px", padding: "6px 18px", color: "#fff", fontWeight: "500", marginLeft: "4px"}}>{tag}</span>
+            <span
+              key={tag}
+              style={{background: "rgba(255,255,255,0.2)", borderRadius: "16px", padding: "6px 18px", color: "#fff", fontWeight: "500", marginLeft: "4px", cursor: "pointer", transition: "background 0.15s"}}
+              onClick={() => navigate(`/find-caterer?highlight=${encodeURIComponent(tag)}`)}
+            >
+              {tag}
+            </span>
           ))}
         </div>
       </div>

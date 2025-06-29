@@ -2,15 +2,15 @@ import React from "react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "Priya Nair",
     text: "Amazing food and service!",
   },
   {
-    name: "Mike Chen",
+    name: "Aarav Sharma",
     text: "Perfect for our corporate event.",
   },
   {
-    name: "Lisa Brown",
+    name: "Ritika Banerjee",
     text: "Highly recommend for weddings!",
   },
 ];

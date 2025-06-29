@@ -6,7 +6,7 @@ const menuData = [
   {
     id: "bruschetta",
     name: "Bruschetta",
-    price: "$8",
+    price: "₹299",
     desc: "Fresh tomatoes, basil, mozzarella on toasted bread",
     img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
     category: "Appetizers",
@@ -16,7 +16,7 @@ const menuData = [
   {
     id: "shrimp-cocktail",
     name: "Shrimp Cocktail",
-    price: "$12",
+    price: "₹449",
     desc: "Jumbo shrimp with cocktail sauce",
     img: "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=600&q=80",
     category: "Appetizers",
@@ -26,7 +26,7 @@ const menuData = [
   {
     id: "cheese-board",
     name: "Cheese Board",
-    price: "$15",
+    price: "₹599",
     desc: "Selection of artisan cheeses",
     img: "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=300&h=200&fit=crop",
     category: "Appetizers",
@@ -37,7 +37,7 @@ const menuData = [
   {
     id: "tiramisu",
     name: "Tiramisu",
-    price: "$8",
+    price: "₹299",
     desc: "Classic Italian dessert",
     img: "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=300&h=200&fit=crop",
     category: "Desserts",
@@ -47,7 +47,7 @@ const menuData = [
   {
     id: "chocolate-cake",
     name: "Chocolate Cake",
-    price: "$7",
+    price: "₹249",
     desc: "Rich chocolate layer cake",
     img: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=200&fit=crop",
     category: "Desserts",
@@ -57,7 +57,7 @@ const menuData = [
   {
     id: "fruit-tart",
     name: "Fresh Fruit Tart",
-    price: "$6",
+    price: "₹229",
     desc: "Seasonal fruits on pastry",
     img: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=300&h=200&fit=crop",
     category: "Desserts",
@@ -110,7 +110,7 @@ export default function MenuItemDetails() {
             <div style={{ fontWeight: 700, marginBottom: 2 }}>Serving Size:</div>
             <div style={{ marginBottom: 24, fontSize: 17 }}>{item.serving}</div>
             <button 
-              style={{ background: '#FF8800', color: '#fff', border: 'none', borderRadius: 8, padding: '16px 0', fontWeight: 600, fontSize: 18, width: '100%', cursor: 'pointer' }}
+              style={{ background: '#FF8800', color: '#fff', border: 'none', borderRadius: 8, padding: '16px 0', fontWeight: 600, fontSize: 18, width: '100%', cursor: 'pointer', marginTop: 24 }}
               onClick={() => navigate('/order-now')}
             >
               Order This Item

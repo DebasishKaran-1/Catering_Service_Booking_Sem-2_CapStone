@@ -3,21 +3,21 @@ import React from "react";
 const services = [
   {
     title: "Wedding Catering",
-    price: "$50/person",
+    price: "₹1999/person",
     img: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=400&h=300&fit=crop",
     rating: 4.8,
     reviews: 124,
   },
   {
     title: "Corporate Events",
-    price: "$35/person",
+    price: "₹1399/person",
     img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=300&fit=crop",
     rating: 4.8,
     reviews: 124,
   },
   {
     title: "Birthday Parties",
-    price: "$25/person",
+    price: "₹999/person",
     img: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400&h=300&fit=crop",
     rating: 4.8,
     reviews: 124,

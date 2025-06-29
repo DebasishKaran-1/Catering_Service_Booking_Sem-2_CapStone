@@ -5,7 +5,7 @@ const appetizers = [
   {
     id: "bruschetta",
     name: "Bruschetta",
-    price: "$8",
+    price: "₹299",
     desc: "Fresh tomatoes, basil, mozzarella on toasted bread",
     img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
     category: "Appetizers",
@@ -15,7 +15,7 @@ const appetizers = [
   {
     id: "shrimp-cocktail",
     name: "Shrimp Cocktail",
-    price: "$12",
+    price: "₹449",
     desc: "Jumbo shrimp with cocktail sauce",
     img: "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=600&q=80",
     category: "Appetizers",
@@ -25,7 +25,7 @@ const appetizers = [
   {
     id: "cheese-board",
     name: "Cheese Board",
-    price: "$15",
+    price: "₹599",
     desc: "Selection of artisan cheeses",
     img: "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=300&h=200&fit=crop",
     category: "Appetizers",
@@ -38,7 +38,7 @@ const desserts = [
   {
     id: "tiramisu",
     name: "Tiramisu",
-    price: "$8",
+    price: "₹299",
     desc: "Classic Italian dessert",
     img: "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=300&h=200&fit=crop",
     category: "Desserts",
@@ -48,7 +48,7 @@ const desserts = [
   {
     id: "chocolate-cake",
     name: "Chocolate Cake",
-    price: "$7",
+    price: "₹249",
     desc: "Rich chocolate layer cake",
     img: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=200&fit=crop",
     category: "Desserts",
@@ -58,7 +58,7 @@ const desserts = [
   {
     id: "fruit-tart",
     name: "Fresh Fruit Tart",
-    price: "$6",
+    price: "₹229",
     desc: "Seasonal fruits on pastry",
     img: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=300&h=200&fit=crop",
     category: "Desserts",
@@ -70,17 +70,17 @@ const desserts = [
 const packages = [
   {
     title: "Wedding Package",
-    price: "$75/person",
+    price: "₹2999/person",
     desc: "3-course meal, champagne toast, wedding cake",
   },
   {
     title: "Corporate Package",
-    price: "$45/person",
+    price: "₹1799/person",
     desc: "Lunch buffet, beverages, professional service",
   },
   {
     title: "Party Package",
-    price: "$35/person",
+    price: "₹1399/person",
     desc: "Appetizers, main course, dessert, soft drinks",
   },
 ];
